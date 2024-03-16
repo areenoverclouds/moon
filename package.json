@@ -2,7 +2,7 @@
   "name": "follower-milestone",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://areenoverclouds.github.io/you-are-moon",
+  "homepage": "https://areenoverclouds.github.io/moon",
   "type": "module",
   "scripts": {
     "dev": "vite",
