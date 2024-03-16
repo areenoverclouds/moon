@@ -4,7 +4,7 @@ import moon240p from "./assets/moon240p-removebg-preview.png";
 import moon720p from "./assets/moon720p-removebg-preview.png";
 
 const App = () => {
-  const [selectedOption, setSelectedOption] = useState("Select");
+  const [selectedOption, setSelectedOption] = useState("120p");
   const options = ["120p", "240p", "720p", "1080p"];
 
   const displayImage = () => {
@@ -16,7 +16,11 @@ const App = () => {
       case "720p":
         return <img src={moon720p} alt="720p moon image" height="200px" width="200px" />;
       case "1080p":
-        return <img src="https://via.placeholder.com/450" alt="you" height="250px" width="250px" />;
+        return (
+            <div style={{ color: 'white', fontSize: '48px' }}> 
+              You 
+            </div>
+        )
     }
   };
 

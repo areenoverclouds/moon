@@ -35,3 +35,29 @@ body {
   flex-direction: column;
   height: 100svh;
 }
+
+@media (max-width: 768px) {
+  .select-box {
+    width: 80px;
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .image-container {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .select-box {
+    width: 60px;
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .image-container {
+    height: 250px;
+    width: 250px;
+  }
+}
