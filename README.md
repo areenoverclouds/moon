@@ -1,1 +1,2 @@
-hello qt
+moon :)
+(copied idea)
